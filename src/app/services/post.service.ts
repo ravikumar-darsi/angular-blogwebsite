@@ -20,7 +20,7 @@ const httpOptions =
 
 export class PostService {
 
-  private apiUrl = "http://localhost:3000/posts";
+  private apiUrl = "https://json-server-tut.herokuapp.com/posts";
 
   constructor(private http: HttpClient) { }
 
